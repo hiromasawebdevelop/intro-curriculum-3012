@@ -19,5 +19,5 @@ const server = http
   });
 const port = 8000;
 server.listen(port, () => {
-  console.infp(`Listening on ${new Date()}`);
+  console.info(`[${new Date()}]Listening on ${port}`);
 });
